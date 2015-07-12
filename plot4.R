@@ -35,6 +35,6 @@ legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
 
 ###Plot4
 plot(data$Global_reactive_power~data$Datetime, type = "l", 
-     xlab="datetime", ylab="Voltage")
+     xlab="datetime", ylab="Global_reactive_power")
 
 dev.off()
